@@ -18,11 +18,9 @@
    background-color: var(--title-color);
    color: var(--nav-contact-color);
  }
- 
- button {
-  cursor: pointer;
-}
-
+button {
+   cursor: pointer;
+ }
  address{
    font-style: normal;
  }
@@ -35,7 +33,9 @@
  .section-title{
    font-weight: 700;
    color: var(--primary-text-color);
+   font-size: 14px;
  }
+ 
  
  /*----------HEADER----------*/
  .menu{
