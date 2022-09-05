@@ -12,7 +12,6 @@
  body{
    font-family: "Roboto" , sans-serif;
    font-weight: 400;
-   font-size: 14px;
    line-height: 1.2;
    letter-spacing: 0.03em;
    background-color: var(--title-color);
@@ -26,6 +25,7 @@ button {
  }
  .list{
    list-style: none;
+   margin: 0px;
  }
  .link{
   text-decoration: none;
@@ -45,12 +45,15 @@ button {
  .menu-nav{
    color: var(--primary-text-color);
  }
- .menu-contact{ color: var(--nav-contact-color);}
+ .menu-contact{ 
+  color: var(--nav-contact-color);
+  font-weight: 500;
+}
  
  .logo{
-   font-family: "Raleway" , sans-serif;
+   font-family: "Raleway", san-serif;
    font-weight: 700;
-   font: size 26px;
+   font-size: 26px;
    line-height: inherit;
 
  }
@@ -71,13 +74,19 @@ button {
  /*----------Герой----------*/
  .hero {
    background-color: var(--background-accent-color);
+   text-align: center;
  }
  
  .hero-title,
  .hero-button {
    letter-spacing: 0.06em;
    color: var(--title-color);
+   font-weight: 700;
   
+}
+.hero-button {
+  margin-bottom: 0px;
+  padding: 0px;
 }
  
  .hero-title {
@@ -141,6 +150,9 @@ button {
  }
  
  /*----------Page Portfolio.html----------*/
+
+ 
+
  .buttons {
    font-family: inherit;
    font-weight: 500;
@@ -168,4 +180,5 @@ button {
    line-height: 1.9;
    color: var(--nav-contact-color);
  }
+
  
