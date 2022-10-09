@@ -72,7 +72,15 @@ button {
  .footer-contacts:focus{
    color: var(--accent-color);
  }
- 
+     .footer-list {display: inline-block;
+      margin-bottom: 9px;
+      transition: color 250ms var(--cubic);}
+       
+  
+      .footer-list:hover .footer-address,
+      .footer-list:focus .footer-address {
+         color: var(--accent-color);
+       }
  /*----------Герой----------*/
  .hero {
    background-color: var(--background-accent-color);
@@ -144,7 +152,8 @@ button {
  .footer-address,
  .logo-white {
    color: var(--title-color);
- }
+    }
+ 
  
  .footer-contacts {
    line-height: 1.7;
